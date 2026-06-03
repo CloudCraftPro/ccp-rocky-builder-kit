@@ -475,7 +475,6 @@ When evaluating a new MCP server:
 - Check the GitHub stars and recent activity (maintained vs. abandoned)
 - Read the permissions it requires (principle of least privilege)
 - Test with non-sensitive data first
-- escalate if you're not sure whether a server is trustworthy or useful
 
 ---
 

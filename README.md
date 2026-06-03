@@ -35,6 +35,17 @@ The capture framework scales from "I just need to track my own tasks" to "I mana
 
 ## How to Build Yours
 
+**See it first.** Browse [`examples/sarah-acme-pm/`](examples/sarah-acme-pm/) for a fully-built workspace — files, captures, indexes, person files, a project folder, all populated. Easier to understand the framework from a complete instance than from the reference docs.
+
+**Then scaffold yours.** Run the bootstrap script to create the directory structure and empty index/log files:
+
+```bash
+./bootstrap.sh ~/my-workspace      # macOS / Linux
+./setup.ps1 -Workspace C:\my-workspace   # Windows
+```
+
+That handles the mechanical setup. Now choose how you want to generate the actual files:
+
 Two paths: **full build** (thorough, 45-90 min) or **quick start** (faster, 20-30 min).
 
 ### Quick Start (`quick-start.md`)
@@ -53,6 +64,7 @@ A design prompt. Feed it your discovery document. It designs your system — cat
 A generation prompt. Feed it your system design. It produces all the workspace files — your SOUL.md, USER.md, AGENTS.md, SCHEMAS.md, MEMORY.md, CLAUDE.md, TOOLS.md, and the initial directory structure. Copy them into your workspace and you're live.
 
 ### Getting Started
+- [`examples/sarah-acme-pm/`](examples/sarah-acme-pm/) — A fully-built example workspace for a fictional PM. Browse it before building your own; the framework reads very differently when you can see one completed.
 - `day-one-walkthrough.md` — What your first session looks like step by step. What to say, what to expect, how to correct mistakes, what "good" looks like after an hour.
 - `example-conversations.md` — Real examples of common interactions: getting briefings, creating captures, correcting classifications, managing projects, triaging email, and more. Learn by example.
 
@@ -95,14 +107,6 @@ These are the design principles behind the framework. Your Rocky should embody a
 5. **Adapt to the human** — the framework bends to fit the person, not the other way around.
 6. **Surface problems** — a good assistant tells you what's going wrong, not just what you asked about.
 7. **Earn trust through competence** — the assistant has access to your professional life. It should act like it deserves that access.
-
----
-
-## When You Get Stuck
-
-Every instance of this framework has a built-in escalation path: **flag it for review, then update the framework to handle it next time.**
-
-This isn't tech support. It's asking the people who designed the thing. They want to hear what's working and what's not.
 
 ---
 

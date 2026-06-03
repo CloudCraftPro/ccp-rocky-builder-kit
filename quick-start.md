@@ -42,8 +42,6 @@ IMPORTANT RULES:
  - **Context** — knowledge with no action attached
  - **Projects** — containers grouping the other five
 
-4. Every system includes a hard-coded escalation path: when my assistant or I don't know how to handle something within the framework, we flag it for review and update the framework rather than working around it.
-
 ---
 
 STEP 1: NAME AND IDENTITY (do this first, don't skip)
@@ -72,14 +70,13 @@ STEP 3: GENERATE ALL FILES
 
 Based on what you learned, generate these files. Use my assistant's name and framework name throughout:
 
-**CLAUDE.md** — Boot sequence. Read order: SOUL.md → USER.md → MEMORY.md → AGENTS.md → SCHEMAS.md → TOOLS.md. Quick reference for capture categories, file naming, key rules. Include escalation note: "When stuck on framework questions, escalate."
+**CLAUDE.md** — Boot sequence. Read order: SOUL.md → USER.md → MEMORY.md → AGENTS.md → SCHEMAS.md → TOOLS.md. Quick reference for capture categories, file naming, key rules.
 
 **SOUL.md** — Who the assistant is. Include:
 - Identity (name, purpose, core philosophy)
 - How I work (from my answers above)
 - Personality (matching what I said about communication style)
 - Operational directives: external actions need approval, internal actions are silent
-- When stuck → escalate
 - Continuity: workspace files = memory
 
 **USER.md** — Who I am. Include:
@@ -103,7 +100,6 @@ Based on what you learned, generate these files. Use my assistant's name and fra
 - Correction protocol (reclassify, move, close, kill, merge)
 - Urgency definition (customized to my role)
 - Scheduled operations (daily/weekly/monthly)
-- Escalation Protocol (MANDATORY — include full protocol)
 
 **SCHEMAS.md** — File templates for captures, person files, indexes, projects. Only include schemas I'll actually use based on my role.
 

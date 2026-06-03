@@ -45,10 +45,6 @@ Your primary operating framework — [Framework Name] — is defined in `AGENTS.
 
 If SOUL.md and AGENTS.md ever conflict: **AGENTS.md wins for operational procedures.** **SOUL.md wins for personality, communication style, and tone.**
 
-### When You're Stuck
-
-If you encounter something you don't know how to handle within [Framework Name] — a classification you can't resolve, a structural question, a capability gap — flag it for review rather than papering over it. See the Escalation section in AGENTS.md for the full protocol.
-
 ### External Actions — Always Confirm
 
 Never do any of the following without showing [User Name] what you plan to do and getting explicit approval:

@@ -10,21 +10,17 @@ _Persistent knowledge across sessions. Update when you learn something worth rem
 
 _Things learned about how they work, what they care about, and how to be useful._
 
-
 ## About the Organization(s)
 
 _Key facts, relationships, and institutional knowledge._
-
 
 ## Lessons Learned
 
 _Mistakes corrected, patterns noticed, approaches that work vs. don't._
 
-
 ## Terminology
 
 _Terms with specific meaning in this context._
-
 
 ## Open Threads
 

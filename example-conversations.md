@@ -324,52 +324,6 @@ Max: Updated and sent.
 
 ---
 
-## Escalation Examples
-
-### When the assistant suggests escalating:
-```
-Max: I'm stuck on this one. The email thread has what looks like a decision,
- but it was made by someone outside the project who might not have
- authority to decide. I can file it as a decision, a context capture
- about a potential decision, or a question about whether this is actually
- decided. The classification rules in AGENTS.md don't cover
- authority-based ambiguity.
-
- This feels like a framework gap, not a training problem. Want me to
- draft an escalation? They built the Grid and might have
- guidance on how to handle authority-ambiguous decisions.
-You: Yeah, draft it.
-Max: Here's what I'd send:
-
- "Framework question: How should we classify decisions made by people
- without clear authority? Scenario: Someone outside the project declared
- a direction in an email thread, but it's unclear if they can actually
- make that call. Options: (1) file as Decision and let the authority
- question be separate, (2) file as Context until authority is confirmed,
- (3) file as Question about whether this is actually decided.
- Current AGENTS.md doesn't address authority-based classification.
- Recommendation?"
-
- Want me to draft the escalation, or do you want to send it yourself?
-```
-
-### When you should escalate:
-```
-You: I keep wanting to track meeting outcomes as their own thing — not as
- individual captures scattered across categories. Like, "the March 26
- standup produced these 3 decisions and 2 action items." Is there a way
- to do that in the Grid?
-Max: That's not currently built into the framework. I can create individual
- captures for each outcome and tag them with the meeting source, but
- there's no "meeting container" concept.
-
- This sounds like something to run by the CloudCraftPro team — they might have a
- pattern for this, or it might be something worth adding to the
- framework. Want me to draft an escalation?
-```
-
----
-
 ## Quick Reference: Common Commands
 
 These aren't literal commands — they're examples of natural language your assistant should understand.

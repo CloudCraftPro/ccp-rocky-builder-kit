@@ -276,7 +276,6 @@ Regardless of role, every instance of this framework requires:
 
 1. **A named assistant.** Not optional. Your assistant has a personality — give it a name.
 2. **A named framework.** The operational system (captures, indexes, person files, everything) needs a name. Default is "the Matrix." Keep it or pick your own. This name appears in file headers and conversation.
-3. **Escalation Protocol.** Built into every AGENTS.md. When you or your assistant don't know how to handle something within the framework, the answer is: flag it for review and update the framework with what you learned. Don't paper over gaps — fix them.
 
 ---
 

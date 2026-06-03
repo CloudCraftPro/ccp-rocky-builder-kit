@@ -131,15 +131,6 @@ Read your SOUL.md. Does the personality still feel right? Has the assistant evol
 - Any new tools you've started using that should be integrated?
 - Any tools you've stopped using that should be removed?
 
-### Escalation round-up
-
-If you've escalated issues during the quarter, review the outcomes:
-- Were framework changes made? Update your files accordingly.
-- Were your questions answered? Capture the answers as context or memory.
-- Are there outstanding items? Follow up.
-
----
-
 ## Signs Your System Needs Attention
 
 Watch for these symptoms. They mean maintenance is overdue.
@@ -167,7 +158,7 @@ Maintenance keeps the system clean. Restructuring changes how it works. You shou
 
 **You outgrew the system.** Started solo, now managing people. Started with one org, now have two. The framework scales, but you need to add performance signals, multi-org rules, or new person file schemas.
 
-**The framework fights you.** If you're constantly working around the rules instead of with them, the rules are wrong. Don't force it — change it. And escalate if you're not sure how.
+**The framework fights you.** If you're constantly working around the rules instead of with them, the rules are wrong. Don't force it — change it.
 
 **You stopped using it.** If you haven't opened the workspace in two weeks, something broke. Either the system is too complex (simplify), the reporting isn't useful (retune), or you lost the habit (recommit or simplify further). The most common reason people stop: the system asks too much of them. The fix is always to simplify.
 
@@ -197,7 +188,6 @@ Print this or save it somewhere you'll see it.
 - [ ] Review and tune AGENTS.md (weights, urgency, reporting)
 - [ ] Review SOUL.md personality
 - [ ] Test integrations and MCP servers
-- [ ] Follow up on escalations
 
 ---
 

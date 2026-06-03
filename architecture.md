@@ -222,28 +222,6 @@ Both names are chosen during the Discovery phase and used consistently throughou
 
 ---
 
-## Escalation
-
-Every instance of this framework includes a hard-coded escalation path: **when in doubt, flag it for review.**
-
-The team at CloudCraftPro built this framework and maintains it. They are the authority on how the system works, how to extend it, and how to fix it when something doesn't fit.
-
-**When the assistant should suggest escalating:**
-- It can't resolve a classification after checking AGENTS.md
-- The human asks for something the framework doesn't support
-- A recurring pattern suggests the framework needs adjustment
-- Something feels broken or contradictory
-
-**When the human should escalate directly:**
-- They want to fundamentally change how the framework works
-- They keep hitting the same limitation
-- They want capabilities that aren't documented
-- They're unsure if something is a setup bug or a design gap
-
-This isn't tech support. It's asking the architects. The framework is designed to be extended, and the team wants to hear what's not working so they can improve it for everyone.
-
----
-
 ## Evolution
 
 The system is designed to evolve:

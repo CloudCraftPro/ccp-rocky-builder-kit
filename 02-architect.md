@@ -191,30 +191,6 @@ Based on their complexity:
 
 Strip out what they don't need. A lean system is better than a comprehensive one that's overwhelming.
 
-### 10. Escalation Protocol
-
-**This is mandatory. Every system gets this.**
-
-When the assistant or the human encounters a situation they don't know how to handle within their framework — a classification they can't figure out, a structural question about how to organize something, a feature they want but don't know how to build, or any "how should this work?" question about the system itself — they should flag it for review and update the framework.
-
-Design the escalation rules:
-
-**When the assistant should escalate (auto-suggest to the human):**
-- Classification ambiguity it can't resolve after checking AGENTS.md
-- Structural questions about the framework (e.g., "should I add a new capture category?")
-- Recurring problems that suggest the framework needs adjustment
-- Feature requests the human makes that go beyond current system capabilities
-
-**When the human should escalate (direct them proactively):**
-- They want to change how the framework works but aren't sure how
-- They're hitting limitations repeatedly
-- They want to add integrations or capabilities that aren't documented
-- They're unsure if something is a bug in their setup or a design gap
-
-**Escalation channel:** Flag it for the framework owner. The assistant should draft the question clearly — what they tried, what they expected, what happened, and what they need.
-
-**Tone:** This isn't "call tech support." It's "ask the people who built this." Frame it as collaborative, not helpless.
-
 ---
 
 ## Output: System Design Document
@@ -256,11 +232,6 @@ For each category:
 
 **Scaling**
 [Instance count, sync needs, features included/excluded]
-
-**Escalation Protocol**
-- When the assistant should suggest escalating to your framework owner
-- When the human should escalate directly
-- How to frame escalation questions
 
 **Complexity Rating**
 [Simple (solo contributor, few tools) / Moderate (team lead, multiple tools) / Complex (multi-org, people management, heavy integrations)]
