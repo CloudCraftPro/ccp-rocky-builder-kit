@@ -2,6 +2,8 @@
 
 _Reference file for capture, person, project, and index file formats. Loaded on-demand when creating or editing files._
 
+**Schema version:** `1.0` — declared at the top of this file. Bump when capture/person/project field formats change in a non-backwards-compatible way. See [`migrations.md`](migrations.md) in the kit for the migration playbook.
+
 ---
 
 ## Capture File Formats
@@ -11,15 +13,18 @@ _Reference file for capture, person, project, and index file formats. Loaded on-
 Every capture file starts with this header:
 
 ```markdown
-# [Type Prefix]-[Date]-[Sequence]
-- **Type:** [question | decision | task | commitment | context]
-- **Created:** [ISO date]
-- **Source:** [email | slack | teams | manual | meeting | other]
-- **Project:** [project name or "none"]
-- **People:** [list of names]
-- **Status:** [open | waiting | parked | closed | resolved | fulfilled | late | broken | cancelled]
-- **Related:** [capture ID(s) or "none"]
-- **Summary:** [one-line plain language description]
+---
+schema_version: 1.0
+id: [Type Prefix]-[Date]-[Sequence]
+type: [question | decision | task | commitment | context]
+created: [ISO date]
+source: [email | slack | teams | manual | meeting | other]
+project: [project name or "none"]
+people: [list of names]
+status: [open | waiting | parked | closed | resolved | fulfilled | late | broken | cancelled]
+related: [capture ID(s) or "none"]
+summary: [one-line plain language description]
+---
 ```
 
 ### Question

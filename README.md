@@ -4,7 +4,7 @@
 
 Rocky isn't a chatbot or a prompt template. It's an operational system that gives an AI an identity, persistent memory across sessions, a structured way to capture commitments and tasks and decisions, and operational procedures for triaging your inbox, tracking projects, and managing the people you work with.
 
-The framework adapts to engineers, PMs, designers, sales, executives — anyone who loses track of things they said they'd do. It scales from "track my own tasks" to "manage 30 people across multiple organizations." See [`role-playbook.md`](role-playbook.md) for role-specific examples.
+The framework adapts to engineers, PMs, designers, sales, executives, solo founders running their own show, and consultants juggling multiple clients — anyone who loses track of things they said they'd do. It's particularly useful if you have ADHD or executive-function challenges: the system functions as an externalized working memory, doing the categorize-and-track-it work your brain isn't built to hold. It scales from "track my own tasks" to "manage 30 people across multiple organizations." See [`role-playbook.md`](role-playbook.md) for role-specific examples.
 
 ---
 
@@ -56,6 +56,7 @@ That creates the directory structure plus empty index/log files.
 | Equip your assistant with tools | [`tools-reference.md`](tools-reference.md), [`mcp-reference.md`](mcp-reference.md), [`skills-reference.md`](skills-reference.md) |
 | Keep the system healthy | [`maintenance-guide.md`](maintenance-guide.md) |
 | Fix something that's broken | [`troubleshooting.md`](troubleshooting.md) |
+| Evolve the schema without breaking your workspace | [`migrations.md`](migrations.md) |
 | See real conversations | [`example-conversations.md`](example-conversations.md) |
 
 ---
